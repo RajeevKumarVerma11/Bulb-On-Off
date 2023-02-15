@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            color: red;
+            font-size: 2rem;
+            border-radius: 10%;
+            cursor: pointer;
+         }
+    </style>
+</head>
+<body bgcolor="black">
+    <img src="off.jpg" alt="" id="image">
+    <button onclick="turnOn()">Turn on</button>
+    <button onclick="turnOff()">Turn off</button>
+
+    <script>
+         function turnOn(){
+        var image=document.getElementById('image');
+        if(image.src.match('off')){
+            image.src="on.jpg";
+        }
+
+       
+    }
+
+    function turnOof(){
+        var image=document.getElementById('image');
+        if(image.src.match('on')){
+            image.src="off.jpg";
+        }
+
+       
+    }
+
+    
+    </script>
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function turnOn(){
+        var image=document.getElementById('image');
+        if(image.src.match('off')){
+            image.src="on.jpg";
+        }
+       
+    }
+
+    function turnOff(){
+        var image=document.getElementById('image');
+        if(image.src.match('on')){
+            image.src="off.jpg";
+        }
+       
+
+    }
+
+</script>
+
+
